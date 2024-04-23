@@ -1,0 +1,438 @@
+body {
+  background-color: rgb(85, 7, 7);
+  padding: 0;
+  margin: 0;
+}
+.nav-bar {
+  height: 80px;
+  background-color: orange;
+}
+.logo {
+  padding: 10px;
+  float: left;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+a {
+  margin: 35px;
+  color: black;
+  text-decoration: none;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+}
+.links {
+  width: 40%;
+  float: right;
+}
+.banner {
+  height: 500px;
+  width: 100%;
+  margin-top: -17px;
+}
+a:hover {
+  background-color: black;
+  color: white;
+  transition: -3s ease;
+}
+p {
+  line-height: 30px;
+  color: solid black;
+  padding: 2px;
+  font-family: Merriweather;
+  font-size: 27px;
+}
+.about-me {
+  text-align: center;
+  font-family: algerian;
+  font-weight: 700;
+  font-size: 27px;
+  color: orange;
+}
+.content {
+  position: center;
+  background-color: rgb(85, 7, 7);
+  border-radius: 10px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 40px;
+  height: 700px;
+  color: #fffdd0;
+  font-size: 15px;
+  padding: 2px;
+  line-height: 30px;
+  font-family: Robot;
+}
+button {
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  background-color: black;
+  color: gold;
+  transition: -3s ease;
+  padding: 5px;
+}
+footer {
+  text-align: center;
+  color: #fff;
+
+  font-size: 18px;
+}
+.main-title {
+  text-align: center;
+  font-family: arial black;
+  font-size: 30px;
+  color: #fffdd0;
+}
+.imgcard {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+}
+.card {
+  width: 800px;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  columns: 2;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.image {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+}
+maintext {
+  float: right;
+  padding: 10px;
+  margin: 20px;
+}
+.title {
+  font-family: algerian;
+}
+form {
+  width: 460px;
+  background-color: orange;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 550px;
+  font-size: 20px;
+}
+.form-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: arial black;
+  color: #ffe4b5;
+}
+label {
+  margin-bottom: 8px;
+  display: block;
+  padding: 8px;
+}
+input,
+textarea {
+  width: 90%;
+  padding: 12px;
+  margin-left: 10px;
+  border: none;
+  background-color: grey;
+  border-radius: 10px;
+  color: #ffe;
+}
+input[type="submit"] {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 160px;
+  border-radius: 5px;
+  background-color: black;
+  color: gold;
+}
+input[type="submit"]:hover {
+  background-color: #ffe4b5;
+  color: #333;
+}
+.image-container {
+}
+.image-placeholder {
+}
+.row-1 {
+  text-align: center;
+  font-family: arial black;
+  font-size: 15px;
+}
+.row-2 {
+  font-family: robot;
+  font-size: 15px;
+}
+.row-3 {
+  font-family: robot;
+  font-size: 15px;
+}
+.row-4 {
+  font-family: robot;
+  font-size: 15px;
+}
+.row-5 {
+  font-family: robot;
+  font-size: 15px;
+}
+.icon-section {
+  background-color: #000080;
+  color: #ffd700;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 999;
+}
+.icon-section .container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.icon-section .icon-item {
+  display: flex;
+  align-items: center;
+}
+.icon-section .icon-item {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.img-src .home2.jpeg {
+  position: center;
+  align-items: center;
+}
+.video-section {
+  background-color: rgb(85, 7, 7);
+  padding: 80px 0;
+  height: 120vh;
+}
+.video-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.image-2-placeholder {
+  width: 50%;
+  height: 65vh;
+  background-color: #ccc;
+  border-radius: 15%;
+  background-image: url("PROGRAMMING.webp");
+}
+.heading {
+  text-align: center;
+  font-family: robot;
+  color: gold;
+}
+.video-text {
+  width: 40%;
+  height: 50vh;
+  color: #ffe4b5;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: auto;
+}
+.dropbtn {
+  background-color: #f8f8f8;
+  color: #333;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #333;
+  color: #f8f8f8;
+}
+.image-carousel {
+  background-color: rgb(85, 7, 7);
+  padding: 80px 0;
+  overflow: auto;
+  display: flex;
+}
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.carousel-item {
+  flex: 0 0 auto;
+  max-width: 150px;
+  scroll-snap-align: center;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+.carousel-item.in-view {
+  transform: scale(1);
+}
+.carousel-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.carousel-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.card-2 {
+  width: 800px;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  columns: 2;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.card-h1 {
+  text-align: center;
+}
+.bottom-bar {
+  background-color: #000080;
+  font-family: san-serif;
+  color: #ffe4b5;
+  font-size: 15px;
+}
+
+#like-button {
+  background-color: #4ca;
+  color: #f7f7f7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#like-count {
+  font-size: 14px;
+  color: #333;
+  margin-left: 5px;
+}
+
+#comment-button {
+  background-color: #4ca;
+  color: #f7f7f7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+}
+#like-count,
+#comment-count {
+  font-size: 14px;
+  color: #ffe4b5;
+  margin-left: 5px;
+}
+. like-button {
+  display: flex;
+  align-items: center;
+}
+. comment-button {
+  display: flex;
+  align-items: center;
+}
+.liked {
+  color: red;
+}
+.textarea2 {
+  width: 70%;
+
+  text-align: center;
+  border: none;
+  background-color: rgb(85, 7, 7);
+  color: #ffe4b5;
+}
+.radio-buttons {
+  padding: 10px;
+  padding-buttom: 10px;
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  display: none;
+}
+label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-top: 10px;
+}
+input[type="radio"]:checked + label {
+  background-color: #4ca;
+  color: #333;
+}
+.pad {
+  width: 1000px;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+
+  display: flex;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.pad-h {
+  text-align: center;
+  color: #ffe4b5;
+}
+.vid-text {
+  color: #ffe4b5;
+  width: 40%;
+  height: 50vh;
+  margin-top: 40px;
+  margin-left: 50px;
+}
